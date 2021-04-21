@@ -1,0 +1,82 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border:  red solid 3px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+
+    .titreservices{
+        border: red solid 3px;
+        
+        .servicesh1{
+
+            font-size: 40px;
+
+         }
+
+        .servicesp{
+
+            color: grey;
+            font-style: italic;
+
+     
+        }
+    }
+
+    .troisimgs{
+
+        border: green solid 3px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+
+        .cartrespweb{
+            border: purple solid 3px;
+            text-align: center ;
+
+
+            .fas{
+                color: white;
+            }
+
+            .cart{
+
+                font-size: 75px;
+                background-color: yellow;
+                padding: 40px;
+                border-radius: 50%;
+
+            }
+
+            .pc{
+
+                font-size: 75px;
+                background-color: yellow;
+                    // Y puis X
+                padding:45px 40px;
+                border-radius: 50%;
+
+            }
+
+            .lock{
+
+                font-size: 75px;
+                background-color: yellow;
+                padding: 40px 50px;
+                border-radius: 50%;
+
+            }
+        }
+    }
+
+
+
+
+
+    
+}
+

@@ -1,0 +1,17 @@
+header{
+    
+   background-image: url("../../../public/img/header-bg.jpg");
+   height: 100vh;
+
+    .imgtitre{
+
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       color: white;
+       height: 90%;
+       
+    }
+
+}
